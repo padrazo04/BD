@@ -1,0 +1,26 @@
+create Table prueba
+  (edad number (2,0),
+  nombre varchar(40));
+
+INSERT INTO PRUEBA
+  VALUES('23', 'Carlos');
+
+SELECT *
+  FROM PRUEBA;
+
+DELETE
+  FROM PRUEBA;
+
+DROP Table Prueba
+
+CREATE TABLE prueba
+(nombre varchar(60) primary key,
+edad number(2))
+
+insert into prueba
+(edad, nombre)
+values(24, 'paco');
+
+UPDATE prueba SET
+edad=25
+where(nombre='paco');
